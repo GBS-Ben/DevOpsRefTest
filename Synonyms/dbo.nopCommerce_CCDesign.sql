@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_CCDesign] FOR [sql01].[nopCommerce].[dbo].[CCDesign]

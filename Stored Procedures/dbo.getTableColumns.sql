@@ -1,0 +1,8 @@
+﻿CREATE PROCEDURE "dbo"."getTableColumns"
+@tableName VARCHAR(128) 
+AS
+SELECT COLUMN_NAME AS [Column],
+			 DATA_TYPE AS [Type],
+			 TABLE_NAME AS [Table]
+FROM INFORMATION_SCHEMA.Columns
+WHERE TABLE_NAME=@tableName

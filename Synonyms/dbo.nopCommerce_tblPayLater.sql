@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_tblPayLater] FOR [sql01].[nopCommerce].[dbo].[tblPayLater]

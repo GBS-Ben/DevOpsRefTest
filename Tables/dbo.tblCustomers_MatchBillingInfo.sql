@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[tblCustomers_MatchBillingInfo]
+(
+[orderNo] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_customerID] [int] NOT NULL,
+[A_FirstName] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_Company] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_Street] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_Street2] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_City] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_State] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_Zip] [nvarchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_Phone] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_Email] [nvarchar] (128) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_customerID] [int] NOT NULL,
+[B_FirstName] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_Company] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_Street] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_Street2] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_City] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_State] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_Zip] [nvarchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_Phone] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[B_Email] [nvarchar] (128) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Match] [varchar] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[A_FirstNameParsed] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[A_LastNameParsed] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]

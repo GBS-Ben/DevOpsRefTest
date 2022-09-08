@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblW2PMerge]
+(
+[Template] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DDF Name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Output Path] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Log File Path] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Output Style] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Output Format] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[bkgnd] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customerFile] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customerFile2] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customerFileExport] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[productBack] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[orderNo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[orderID] [int] NOT NULL,
+[productCode] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[productName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[logo1] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[logo2] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[photo1] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[photo2] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ordersProductsID] [int] NULL,
+[exportStatus] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[exportedOn] [datetime] NULL
+) ON [PRIMARY]

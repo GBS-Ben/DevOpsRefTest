@@ -1,0 +1,3 @@
+﻿CREATE PROC usp_PMIGap
+AS
+SELECT TOP 1 'Hey There.' FROM tblOrders WHERE 1=1

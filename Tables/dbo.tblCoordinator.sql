@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblCoordinator]
+(
+[coordinatorID] [int] NOT NULL,
+[contact] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[firstName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[middleName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[lastName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[suffix] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[title] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[address] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[city] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[state] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[zip] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[phone] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ext] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[fax] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[email] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[website] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[designation] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[status] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[rewards] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[payout] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[recStatus] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[mailing] [bit] NULL
+) ON [PRIMARY]

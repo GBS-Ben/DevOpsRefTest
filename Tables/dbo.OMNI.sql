@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[OMNI] (
+    [OrderID]      INT            NOT NULL,
+    [SearchString] NVARCHAR (MAX) NULL,
+    [UpdatedOn]    DATETIME2 (7)  CONSTRAINT [DF_tempJF_OMNI_UpdatedOn] DEFAULT (getdate()) NOT NULL,
+    CONSTRAINT [PK_OMNI] PRIMARY KEY NONCLUSTERED ([OrderID] ASC),
+    CONSTRAINT [UX_OMNI] UNIQUE NONCLUSTERED ([OrderID] ASC)
+);
+
+
+GO
+
+GO

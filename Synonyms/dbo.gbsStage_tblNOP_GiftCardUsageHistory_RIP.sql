@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[gbsStage_tblNOP_GiftCardUsageHistory_RIP] FOR [winterfell].[gbsStage].[dbo].[tblNOP_GiftCardUsageHistory_RIP]

@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[tbl_4over_BC_Export]
+(
+[JobName_PO] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Delivery] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_Name] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_Company] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_Street] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_Street2] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_City] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_State] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_Zip] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_Country] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipTo_Phone] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[runSize] [int] NULL,
+[Style] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[cardFinish] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[turnAround] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ordersProductsID] [int] NULL,
+[productCode] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[productName] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customerID] [int] NULL,
+[orderID] [int] NULL,
+[jobStatus] [int] NULL,
+[imageFront] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[imageBack] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]

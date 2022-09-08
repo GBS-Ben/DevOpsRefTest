@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_ProductAttributeValue] FOR [sql01].[nopCommerce].[dbo].[ProductAttributeValue]

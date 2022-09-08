@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[gbsStage_tblNOPOrderMigrationLog] FOR [gbsStage].[dbo].[tblNOPOrderMigrationLog]

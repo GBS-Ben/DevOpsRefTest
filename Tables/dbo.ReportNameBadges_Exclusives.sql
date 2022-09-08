@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[ReportNameBadges_Exclusives]
+(
+[orderNo] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[orderDate] [datetime] NULL,
+[orderStatus] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[orderID] [int] NULL,
+[productCode] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[productName] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[productQuantity] [int] NULL,
+[productPrice] [money] NULL,
+[totalSold] [money] NULL,
+[calcOrderTotal] [money] NULL,
+[customerID] [int] NOT NULL,
+[customer_fullName] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[customer_company] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customer_email] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[phone] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipping_FullName] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipping_Company] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipping_State] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipping_PostCode] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[billing_FullName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[billing_Company] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[billing_State] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[billing_PostCode] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]

@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_customer] FOR [sql01].[nopCommerce].[dbo].[customer]

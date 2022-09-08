@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[gbsStage_tblNOP_CustomerAddresses_RIP] FOR [winterfell].[gbsStage].[dbo].[tblNOP_CustomerAddresses_RIP]

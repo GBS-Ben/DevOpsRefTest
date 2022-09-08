@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_tblNOPOrderItem] FOR [sql01].[nopCommerce].[dbo].[tblNOPOrderItem]

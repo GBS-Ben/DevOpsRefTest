@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_ConnectedCustomersWithoutOrders] FOR [sql01].[nopCommerce].[dbo].[ConnectedCustomersWithoutOrders]

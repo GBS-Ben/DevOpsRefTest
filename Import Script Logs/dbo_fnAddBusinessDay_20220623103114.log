@@ -1,0 +1,13 @@
+6/23/2022 3:31:14 PM	This log contains information about the import operation of the script 'dbo.fnAddBusinessDays.sql' into project 'gbsCore' on computer 'GBS-CBROWNE' by user'Cbrowne.
+6/23/2022 3:31:17 PM	Started importing file: C:\Users\cbrowne\AppData\Local\Temp\tmp288F.tmp 
+6/23/2022 3:31:17 PM	File name C:\Users\cbrowne\AppData\Local\Temp\tmp288F.tmp (size: 7615807)
+6/23/2022 3:31:17 PM	Parsing import script
+6/23/2022 3:31:29 PM	Total number of batches in script: 4211
+6/23/2022 3:31:29 PM	Total number of statements in script: 2390
+6/23/2022 3:31:29 PM	The script was successfully imported into the project.
+6/23/2022 3:31:29 PM	Analyzing schema objects...
+6/23/2022 3:31:30 PM	Scanning project for duplicate elements
+6/23/2022 3:31:30 PM	Finished duplicate element processing
+6/23/2022 3:31:39 PM	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+6/23/2022 3:31:39 PM	A summary of the import was saved to the following location: C:\Users\cbrowne\source\repos\gbsCore\Import Script Logs\dbo_fnAddBusinessDay_20220623103114.log
+6/23/2022 3:31:39 PM	Click Finish to continue...

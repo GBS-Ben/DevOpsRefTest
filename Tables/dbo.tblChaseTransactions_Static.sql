@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[tblChaseTransactions_Static]
+(
+[PKID] [int] NOT NULL IDENTITY(111222333, 1),
+[batchNumber] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[merchantName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[transactionDateTime] [datetime] NULL,
+[reportingMerchantNo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[batchClose] [date] NULL,
+[seqNo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[cardType] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[cardHolderNo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[expDate] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[authCode] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[entryMode] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[termOPID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[transactionType] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[recordType] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[amount] [money] NULL,
+[currency] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[legacyTermID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[PNSMerchNo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[sys] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[totalTime] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[orderNo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customData] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[routingNo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[rowID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]

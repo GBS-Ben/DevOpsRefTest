@@ -1,0 +1,37 @@
+﻿CREATE TABLE [dbo].[tblAMZN_UnshippedOrders_Stage]
+(
+[Id] [int] NOT NULL IDENTITY(1, 1),
+[order-id] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[order-item-id] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[purchase-date] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[payments-date] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[reporting-date] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[promise-date] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[days-past-promise] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[buyer-email] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[buyer-name] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[buyer-phone-number] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[sku] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[product-name] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[quantity-purchased] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[quantity-shipped] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[quantity-to-ship] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ship-service-level] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[recipient-name] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ship-address-1] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ship-address-2] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ship-address-3] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ship-city] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ship-state] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ship-postal-code] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ship-country] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customized-url] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customized-page] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[is-business-order] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[purchase-order-number] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[price-designation] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[inputFileName] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[dateCreated] [datetime] NOT NULL CONSTRAINT [DF_tblAMZN_UnshippedOrders_Stage_dateCreated] DEFAULT (getdate())
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[tblAMZN_UnshippedOrders_Stage] ADD CONSTRAINT [PK_tblAMZN_UnshippedOrders_Stage] PRIMARY KEY CLUSTERED  ([Id]) ON [PRIMARY]

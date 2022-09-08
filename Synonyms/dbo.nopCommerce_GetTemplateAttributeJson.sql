@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_GetTemplateAttributeJson] FOR [sql01].[nopCommerce].[dbo].[GetTemplateAttributeJson]

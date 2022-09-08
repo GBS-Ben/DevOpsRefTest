@@ -1,0 +1,1 @@
+﻿CREATE PROCEDURE [dbo].[getProductFlags] AS

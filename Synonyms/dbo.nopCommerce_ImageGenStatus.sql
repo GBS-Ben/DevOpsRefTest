@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_ImageGenStatus] FOR [dev-sql01\nop].[nopCommerce].[dbo].[ImageGenStatus]

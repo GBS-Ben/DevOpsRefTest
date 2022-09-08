@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_DiscountUsageHistory] FOR [sql01].[nopCommerce].[dbo].[DiscountUsageHistory]

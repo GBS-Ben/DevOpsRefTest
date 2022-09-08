@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/gbsCore.dbmdl
+/gbsCore.jfm
+/obj/Debug/gbsCore.sqlprojAssemblyReference.cache
+.vs/gbsCore/v16/.suo
+.vs/gbsCore/v16/.suo
+obj/Debug/gbsCore.dll
+obj/Debug/gbsCore.pdb
+obj/Debug/gbsCore.sqlproj.FileListAbsolute.txt
+/bin/Debug
+/obj/Debug
+.vs/gbsCore/v16/.suo
+
+/.vs

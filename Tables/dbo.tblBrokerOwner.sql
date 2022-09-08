@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblBrokerOwner]
+(
+[uniqueID] [int] NOT NULL IDENTITY(900000, 1),
+[broker] [int] NULL,
+[firstName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[lastName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[company] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[address1] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[address2] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[city] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[state] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[zip] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[officePhone] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[cellPhone] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[email] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[numAgents] [int] NULL,
+[rewards] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[numOffices] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[insertDate] [datetime] NULL,
+[status] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[boForPrint] [bit] NULL,
+[boPrinted] [bit] NULL,
+[printDate] [datetime] NULL,
+[comments] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]

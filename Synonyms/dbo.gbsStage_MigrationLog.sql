@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[gbsStage_MigrationLog] FOR [winterfell].[gbsStage].[dbo].[MigrationLog]

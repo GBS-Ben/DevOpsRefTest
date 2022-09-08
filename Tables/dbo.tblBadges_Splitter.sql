@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblBadges_Splitter]
+(
+[sortNo] [int] NULL,
+[Contact] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Title] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[BKGND] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SHT] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[POS] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[COLogo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[COtextAll] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[COtext1] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[COtext2] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[RO] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[orderNo] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[pkid] [int] NULL,
+[OPPO_ordersProductsID] [int] NULL,
+[QTY] [int] NULL,
+[orderID] [int] NULL,
+[productCode] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[oppo_PKID] [int] NULL,
+[oppo_frame_optionID] [int] NULL,
+[oppo_frame_optionCaption] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[oppo_frame_optionQty] [int] NULL,
+[oppo_frameless] [bit] NOT NULL CONSTRAINT [DF_tblBadges_Splitter_oppo_frameless] DEFAULT ((0))
+) ON [PRIMARY]

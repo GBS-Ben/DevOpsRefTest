@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_TopicTemplate] FOR [sql01].[nopCommerce].[dbo].[TopicTemplate]

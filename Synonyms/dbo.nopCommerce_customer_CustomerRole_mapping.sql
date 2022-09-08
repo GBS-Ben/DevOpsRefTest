@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_customer_CustomerRole_mapping] FOR [sql01].[nopCommerce].[dbo].[customer_CustomerRole_mapping]

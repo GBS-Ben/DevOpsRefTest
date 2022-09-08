@@ -1,0 +1,35 @@
+﻿CREATE TABLE [dbo].[tbl_upsx] (
+    [pkid]                 INT           IDENTITY (1, 1) NOT NULL,
+    [trackingnumber]       VARCHAR (50)  NULL,
+    [voidindicator]        VARCHAR (5)   NULL,
+    [referencenumber]      VARCHAR (50)  NULL,
+    [cod]                  VARCHAR (5)   NULL,
+    [numberpackages]       VARCHAR (50)  NULL,
+    [freight]              INT           NULL,
+    [createdate]           VARCHAR (50)  NULL,
+    [serviceType]          VARCHAR (255) NULL,
+    [actualWeight]         VARCHAR (255) NULL,
+    [reference1]           VARCHAR (255) NULL,
+    [reference2]           VARCHAR (255) NULL,
+    [reference3]           VARCHAR (255) NULL,
+    [reference4]           VARCHAR (255) NULL,
+    [reference5]           VARCHAR (255) NULL,
+    [packageType]          VARCHAR (255) NULL,
+    [customerID]           VARCHAR (255) NULL,
+    [companyName]          VARCHAR (255) NULL,
+    [attention]            VARCHAR (255) NULL,
+    [uspsPOBOX]            VARCHAR (255) NULL,
+    [address1]             VARCHAR (255) NULL,
+    [address2]             VARCHAR (255) NULL,
+    [address3]             VARCHAR (255) NULL,
+    [postalCode]           VARCHAR (255) NULL,
+    [city]                 VARCHAR (255) NULL,
+    [state]                VARCHAR (255) NULL,
+    [residentialIndicator] VARCHAR (255) NULL,
+    [intranetUpdate]       BIT           DEFAULT ((0)) NULL,
+    [dateCreated]          DATETIME      CONSTRAINT [DF_tbl_upsx_dateCreated] DEFAULT (getdate()) NOT NULL,
+    CONSTRAINT [PK_tbl_upsx] PRIMARY KEY CLUSTERED ([pkid] ASC) WITH (FILLFACTOR = 90)
+);
+
+
+GO

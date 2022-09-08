@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[SN_ImpEx]
+(
+[Name] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ArtworkFile] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[BackArtworkFile] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Ordered] [int] NULL,
+[Width] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Height] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Bleed] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Stock] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[GrainDirection] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Grade] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[MaxOverruns] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[BleedType] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SpacingType] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DieDesignName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[CADFile] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DieDesignSource] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Priority] [int] NULL CONSTRAINT [DF__SN_ImpEx__strex__633B3147] DEFAULT ((9)),
+[Description] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Marks] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Template] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Sheet] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[MACArtworkFile] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[MACBackArtworkFile] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Run] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]

@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_Product_SpecificationAttribute_Mapping] FOR [sql01].[nopCommerce].[dbo].[Product_SpecificationAttribute_Mapping]

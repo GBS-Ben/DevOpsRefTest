@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_CoreCompanyData] FOR [sql01].[NopCommerce].[dbo].[CoreCompanyData]

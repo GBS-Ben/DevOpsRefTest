@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_GiftCardusageHistory] FOR [sql01].[nopCommerce].[dbo].[GiftCardusageHistory]

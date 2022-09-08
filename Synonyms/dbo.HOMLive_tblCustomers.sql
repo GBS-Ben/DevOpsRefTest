@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[HOMLive_tblCustomers] FOR [sql01].[nopCommerce].[dbo].[tblCustomers]

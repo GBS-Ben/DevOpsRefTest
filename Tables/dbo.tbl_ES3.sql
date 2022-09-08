@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[tbl_ES3]
+(
+[RowID] [int] NOT NULL IDENTITY(1, 1),
+[trackingNumber] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipToAttention] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipToPhone] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipToName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipToAddressLine1] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipToAddressLine2] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipToCity] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipToState] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[shipToZip] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[packageCount] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[packageWeight] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ServiceType] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[orderID] [int] NULL,
+[orderNo] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[storeID] [int] NULL,
+[email] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[contact] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[PackageActivityDate] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[PackageActivityTime] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DeliveryLocation] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SignedForBy] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[body] [varchar] (8000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[subject] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[recipient] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]

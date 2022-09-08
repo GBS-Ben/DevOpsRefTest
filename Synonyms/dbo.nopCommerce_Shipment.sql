@@ -1,0 +1,1 @@
+﻿CREATE SYNONYM [dbo].[nopCommerce_Shipment] FOR [sql01].[nopCommerce].[dbo].[Shipment]
