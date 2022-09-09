@@ -66,7 +66,6 @@
     <Folder Include="Security\" />
     <Folder Include="Synonyms\" />
     <Folder Include="Scripts\" />
-    <Folder Include="dacpacs" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\dbo.20210913Markful.sql" />
@@ -1978,23 +1977,23 @@
   <ItemGroup>
     <SqlCmdVariable Include="gbsController">
       <DefaultValue>gbsController</DefaultValue>
-      <Value>$(SqlCmdVar__7)</Value>
+      <Value>$(SqlCmdVar__25)</Value>
     </SqlCmdVariable>
     <SqlCmdVariable Include="gbsCore">
       <DefaultValue>gbsCore</DefaultValue>
-      <Value>$(SqlCmdVar__20)</Value>
+      <Value>$(SqlCmdVar__24)</Value>
     </SqlCmdVariable>
     <SqlCmdVariable Include="gbsImageGen">
       <DefaultValue>gbsImageGen</DefaultValue>
-      <Value>$(SqlCmdVar__22)</Value>
+      <Value>$(SqlCmdVar__28)</Value>
     </SqlCmdVariable>
     <SqlCmdVariable Include="nopCommerce">
       <DefaultValue>nopCommerce</DefaultValue>
-      <Value>$(SqlCmdVar__18)</Value>
+      <Value>$(SqlCmdVar__26)</Value>
     </SqlCmdVariable>
     <SqlCmdVariable Include="OtherServer">
       <DefaultValue>SQL01</DefaultValue>
-      <Value>$(SqlCmdVar__23)</Value>
+      <Value>$(SqlCmdVar__29)</Value>
     </SqlCmdVariable>
   </ItemGroup>
   <ItemGroup>
@@ -2003,25 +2002,24 @@
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
       <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
     </ArtifactReference>
-    <ArtifactReference Include="\\dev-sql03\g\dacpacs\gbsController.dacpac">
-      <HintPath>\\dev-sql03\g\dacpacs\gbsController.dacpac</HintPath>
-      <SuppressMissingDependenciesErrors>True</SuppressMissingDependenciesErrors>
+    <ArtifactReference Include="\\ftp4sql.file.core.windows.net\ftp\DacPacs\gbsCore.dacpac">
+      <HintPath>\\ftp4sql.file.core.windows.net\ftp\DacPacs\gbsCore.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>gbsCore</DatabaseSqlCmdVariable>
+    </ArtifactReference>
+    <ArtifactReference Include="\\ftp4sql.file.core.windows.net\ftp\DacPacs\gbsController.dacpac">
+      <HintPath>\\ftp4sql.file.core.windows.net\ftp\DacPacs\gbsController.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
       <DatabaseSqlCmdVariable>gbsController</DatabaseSqlCmdVariable>
     </ArtifactReference>
-    <ArtifactReference Include="\\dev-sql03\g\dacpacs\nopCommerce.dacpac">
-      <HintPath>\\dev-sql03\g\dacpacs\nopCommerce.dacpac</HintPath>
+    <ArtifactReference Include="\\ftp4sql.file.core.windows.net\ftp\DacPacs\nopCommerce.dacpac">
+      <HintPath>\\ftp4sql.file.core.windows.net\ftp\DacPacs\nopCommerce.dacpac</HintPath>
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
       <DatabaseSqlCmdVariable>nopCommerce</DatabaseSqlCmdVariable>
       <ServerSqlCmdVariable>OtherServer</ServerSqlCmdVariable>
     </ArtifactReference>
-    <ArtifactReference Include="\\dev-sql03\g\dacpacs\gbsCore.dacpac">
-      <HintPath>\\dev-sql03\g\dacpacs\gbsCore.dacpac</HintPath>
-      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
-      <DatabaseSqlCmdVariable>gbsCore</DatabaseSqlCmdVariable>
-      <ServerSqlCmdVariable>OtherServer</ServerSqlCmdVariable>
-    </ArtifactReference>
-    <ArtifactReference Include="\\dev-sql03\g\dacpacs\gbsImageGen.dacpac">
-      <HintPath>\\dev-sql03\g\dacpacs\gbsImageGen.dacpac</HintPath>
+    <ArtifactReference Include="\\ftp4sql.file.core.windows.net\ftp\DacPacs\gbsImageGen.dacpac">
+      <HintPath>\\ftp4sql.file.core.windows.net\ftp\DacPacs\gbsImageGen.dacpac</HintPath>
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
       <DatabaseSqlCmdVariable>gbsImageGen</DatabaseSqlCmdVariable>
       <ServerSqlCmdVariable>OtherServer</ServerSqlCmdVariable>
